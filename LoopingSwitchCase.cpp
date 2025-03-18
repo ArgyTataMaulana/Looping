@@ -8,6 +8,7 @@ int main()
     int n;
     int perulanganWhile = 0;
     int perulanganFor = 0;
+    int perulanganDo = 0;
 
 
 // Perulangan dengan for
@@ -52,4 +53,5 @@ srand(time(0));
  n = rand() % 10;
 
  cout << "Nilai awal n = " << n << endl;
+
 }
