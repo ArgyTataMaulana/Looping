@@ -54,4 +54,13 @@ srand(time(0));
 
  cout << "Nilai awal n = " << n << endl;
 
+ cout << "Nilai n = " << n << endl;
+
+ do
+ {
+    n = rand() % 10;
+    perulanganDo++;
+} while (n < 7) ;
+cout << "Jumlah perulangan = " << perulanganWhile << endl;
+cout << "Nilai n terakhir = " << n << endl;
 }
